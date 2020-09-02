@@ -11,7 +11,7 @@ const AskRegistrationStatus = () => {
           }}
           className="row align-items-center "
         >
-          <div className="col-10 mx-auto card d-flex flex-column align-items-center justify-content-around border pt-5">
+          <div className="col-10 mx-auto card d-flex flex-column align-items-center justify-content-around  pt-5">
             <img
               src={
                 process.env.PUBLIC_URL +
