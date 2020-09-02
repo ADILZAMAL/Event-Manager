@@ -1,0 +1,53 @@
+.card {
+  height: 90vh;
+  background-color: $color-dog-frame;
+  position: relative;
+  &__btn {
+    text-decoration: none;
+    
+    display: block;
+    padding: 8px 50px;
+    border: 3px solid #fff;
+    margin: 15px;
+    background-color: $color-dog-frame;
+    border-radius: 40px;
+    &:first-child {
+      padding: 8px 51px;
+    }
+    &:hover {
+      color: $color-dog-frame;
+      background-color: #fff;
+      outline: none;
+    }
+  }
+  &__text1 {
+    font-weight: 900;
+    position: absolute;
+    font-size: 2rem;
+    top: 80px;
+    left: 10px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f7fff7;
+    letter-spacing: 2px;
+    color: $color-dog-frame !important;
+  }
+  &__text2 {
+    text-shadow: none;
+    font-size: 2.3rem;
+    position: absolute;
+    bottom: 290px;
+    right: 5px;
+    font-weight: 800;
+    color: $color-dog-frame;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f7fff7;
+  }
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: -5px;
+  margin-top: 15px;
+  font-size: 1.2rem;
+}

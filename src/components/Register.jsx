@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import RegistrationComplete from "./RegistrationComplete";
 class Register extends Component {
   state = {
     eventId: "",
@@ -6,6 +7,7 @@ class Register extends Component {
     email: "",
     rollNo: "",
     whatsApp: "",
+    registrationSubmitView: true,
   };
 
   render() {
@@ -24,7 +26,7 @@ class Register extends Component {
       <>
         <div className="container-fluid home">
           <div className="row">
-            <div className="col-10 mx-auto">
+            <div className="col-11 col-md-10 mx-auto">
               <div className="container-fluid">
                 <div className="row register">
                   <div className="col-md-6 register__img">

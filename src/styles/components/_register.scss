@@ -70,10 +70,12 @@
 
 @media only screen and (max-width: 760px) {
   .register {
+    height: 90vh;
     &__img {
       display: none;
     }
     &__form {
+      height: 90vh;
       padding: 0 25px;
       &__button {
         padding: 0;
